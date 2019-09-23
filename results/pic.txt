@@ -1,0 +1,5 @@
+./data/test/image\0.tif
+./data/test/image\1.tif
+./data/test/image\2.tif
+./data/test/image\3.tif
+./data/test/image\4.tif
