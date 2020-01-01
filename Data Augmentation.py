@@ -1,33 +1,21 @@
-import Augmentor
+# -*- coding: utf-8 -*-
+"""
+@author: Sharad Kumar Gupta and Vanshika Gupta
+"""
 import numpy as np
 np.random.seed(19680801)
 
-path_to_data = "./Train"
+import Augmentor
+p = Augmentor.Pipeline("./data/train/image")
 
-# Create a pipeline
-p = Augmentor.Pipeline(path_to_data)
-
-# Add some operations to an existing pipeline.
-
-p.ground_truth("./Label")
-
-# First, we add a horizontal flip operation to the pipeline:
-p.flip_left_right(probability=0.4)
-
-# Now we add a vertical flip operation to the pipeline:
-#p.flip_top_bottom(probability=0.7)
-
-# Add a rotate90 operation to the pipeline:
-#p.rotate90(probability=0.1)
-
-p.rotate(probability=0.7, max_left_rotation=5, max_right_rotation=5)
-
-# Here we sample 100,000 images from the pipeline.
-
-# It is often useful to use scientific notation for specify
-# large numbers with trailing zeros.
-num_of_samples = int(50)
-
-# Now we can sample from the pipeline:
-p.sample(num_of_samples, multi_threaded=True)
-p.process()
+# Point to a directory containing ground truth data.
+# Images with the same file names will be added as ground truth data
+# and augmented in parallel to the original data.
+p.ground_truth("./data/train/label")
+# Add operations to the pipeline as normal:
+p.rotate(probability=1, max_left_rotation=5, max_right_rotation=5)
+p.flip_left_right(probability=0.5)
+p.zoom_random(probability=0.5, percentage_area=0.8)
+#p.flip_top_bottom(probability=0.5)
+p.sample(200, multi_threaded=False)
+#p.process()
