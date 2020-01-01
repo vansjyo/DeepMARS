@@ -4,7 +4,7 @@ Deep Network for Discontinuity Detection in SHARAD Radargram of MARS.
 Usage:
 1. Please install the required packages using "requirements.txt" file.
 
-	pip install -r requirements.txt
+	`pip install -r requirements.txt`
 
 2. Keep the test and training images in the data folder.
 
@@ -14,7 +14,7 @@ Usage:
 	
 4. If training is required on your data set please change "training=True" in the line 139 of DeepMARS.py code.
 	
-	def __init__(self, img_rows=256, img_cols=256, training=False, log_dir="./tensorboard_net"):
+	`def __init__(self, img_rows=256, img_cols=256, training=False, log_dir="./tensorboard_net"):`
 
 5. The results of the test data are available in /results/image/ folder.
 
