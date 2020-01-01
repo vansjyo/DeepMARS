@@ -1,0 +1,9 @@
+opencv_python==4.1.0.25
+Keras==2.2.4
+scikit_image==0.14.2
+numpy==1.17.0
+matplotlib==3.0.3
+Augmentor==0.2.7
+Pillow==6.2.1
+scikit_learn==0.22
+skimage==0.0
