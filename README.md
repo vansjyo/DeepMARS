@@ -4,7 +4,7 @@ Deep Network for Discontinuity Detection in SHARAD Radargram of MARS.
 Usage:
 1. Please install the required packages using "requirements.txt" file.
 
-pip install -r requirements.txt
+	pip install -r requirements.txt
 
 2. Keep the test and training images in the data folder.
 
