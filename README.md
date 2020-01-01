@@ -16,4 +16,4 @@ Usage:
 
 5. The results of the test data are available in /results/image/ folder.
 
-Please feel free to contact [Sharad Kumar Gupta](sharadgupta27@gmail.com) or [Vanshika Gupta](vanshika421@gmail.com).
+Please feel free to contact Sharad Kumar Gupta (sharadgupta27@gmail.com) or Vanshika Gupta (vanshika421@gmail.com).
