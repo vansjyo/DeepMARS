@@ -8,7 +8,7 @@ Usage:
 
 2. Keep the test and training images in the data folder.
 
-3. Due to size issue in github, the model has not provided with the repository. Please download the trained model from [this link](https://cloud.iitmandi.ac.in/f/be50f650fa/?raw=1). Keep the downloaded model in the home directory i.e. the code directory.
+3. Due to size issue in github, the model has not been provided with the repository. Please download the trained model from [this link](https://cloud.iitmandi.ac.in/f/be50f650fa/?raw=1). Keep the downloaded model in the home directory i.e. the code directory.
 	
 4. If training is required on your data set, change "training=True" in the line 139 of DeepMARS.py code.
 	
