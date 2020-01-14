@@ -1,5 +1,5 @@
 # DeepMARS
-Deep Network for Discontinuity Detection in SHARAD Radargram of MARS.
+CNN Model for Discontinuity Detection in SHARAD Radargram of MARS.
 
 Usage:
 1. Install the required packages using "requirements.txt" file.
