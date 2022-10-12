@@ -1,6 +1,8 @@
 # DeepMARS
 CNN Model for Discontinuity Detection in SHARAD Radargram of MARS.
 
+Paper Link : [https://www.mdpi.com/2076-3417/10/7/2279](https://www.mdpi.com/2076-3417/10/7/2279)
+
 Usage:
 1. Install the required packages using "requirements.txt" file.
 
